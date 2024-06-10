@@ -1,8 +1,25 @@
 {
-  "name": "pouicinstall",
-  "version": "0.0.0",
-  "private": true,
+  "name": "pouic-install",
+  "version": "0.0.1",
+  "private": false,
   "type": "module",
+  "description": "An app to simplify installations for windows.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InesHAMIDI/PouicInstaller.git"
+  },
+  "keywords": [
+    "installer",
+    "windows"
+  ],
+  "author": "Toki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InesHAMIDI/PouicInstaller/issues"
+  },
+  "homepage": "https://github.com/InesHAMIDI/PouicInstaller#readme",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,6 +35,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "^30.1.0",
     "vfonts": "^0.0.3",
     "vite": "^5.2.8"
   }
