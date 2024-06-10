@@ -1,5 +1,5 @@
 {
-  "name": "pouic-install",
+  "name": "pouic-installer",
   "version": "0.0.1",
   "private": false,
   "type": "module",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/InesHAMIDI/PouicInstaller#readme",
 
   "scripts": {
+    "start": "electron .",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

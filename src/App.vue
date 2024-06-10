@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 
 import {defineComponent} from "vue";
 import InstallerComponent from "@/components/InstallerComponent.vue";
@@ -9,6 +9,7 @@ export default defineComponent({
 </script>
 
 <template>
+  <n-page-header subtitle="Pouic Installer"></n-page-header>
   <InstallerComponent></InstallerComponent>
 </template>
 
