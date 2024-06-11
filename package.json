@@ -1,0 +1,51 @@
+{
+  "name": "pouic-installer",
+  "version": "1.0.0",
+  "description": "An app to simplify Windows installations that uses chocolatey",
+  "main": "src/main.js",
+  "author": "Toki",
+  "license": "MIT",
+  "homepage": "https://github.com/InesHAMIDI/PouicInstaller#readme",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InesHAMIDI/PouicInstaller.git"
+  },
+  "keywords": [
+    "windows",
+    "installer",
+    "chocolatey"
+  ],
+  "bugs": {
+    "url": "https://github.com/InesHAMIDI/PouicInstaller/issues"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "electron-squirrel-startup": "^1.0.1",
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron-forge/plugin-vite": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "electron": "31.0.0",
+    "naive-ui": "^2.38.2",
+    "vite": "^5.2.13"
+  }
+}
